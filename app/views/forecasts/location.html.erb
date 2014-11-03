@@ -1,0 +1,7 @@
+<h1><%=params[:address].titleize %></h1>
+
+<p>The current temperature at <b><%=params[:address].titleize %></b> is <b><%= @temperature %> degrees.</b></p>
+
+<p>The outlook for the next hour is: <b><%= @hour_outlook %></b></p>
+
+<p>The outlook for the next day is: <b><%= @day_outlook %><b></p>
